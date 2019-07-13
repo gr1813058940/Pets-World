@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #ddd;
+    content:"|";
+}
+.font_small{
+    font-size:0.8rem;
+
+}
+.first{
+    margin-left: 170px;
+}
+.second{
+    margin-left: 170px;
+}
+.font_color{
+    color: #ddd;
+}
