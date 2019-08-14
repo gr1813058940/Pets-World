@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
 }
+a:hover{
+    text-decoration: none;
+  }
+div.left{
+    margin-left: 110px;
+}
+.wrap .ml{
+    margin-left: 600px;
+}
 .tab-list {
     width: 1080px;
     height: 178px;
@@ -24,9 +33,6 @@ div>ul.nav1 {
     margin-bottom: 0;
     list-style: none;
   }
-  a:hover{
-    text-decoration: none;
-  }
   .text-muted1{
       color:#000 !important;
       
@@ -44,7 +50,10 @@ div>ul.nav1 {
       color: #000 !important;
   }
   div.bg{
-      background: #ddd !important;
+      background: #f3f6fb !important;
+  }
+  .bg{
+    background: #f3f6fb !important;
   }
   .bg1{
       background: #efefef !important;
