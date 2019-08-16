@@ -19,8 +19,79 @@
                 <li class="nav-item"><a href="reg.html">没有账号?去注册</a></li>
             </ul>
             <div id="d2">
-                
-        </div> 
+               <div class="sao">
+                   <span style="color: #ff8c14">扫码登录</span>
+                   <img src="../img/login/erweima@2x.png" class="erweima">
+               </div>
+               <img src="../img/header/3.jpg" class="logo">     
+        <div class="passwordlogin" style="display: block;">
+                <div class="change">
+                    <span id="account" class="active">账户密码登录</span>
+                    <span id="phonenum" class="active">手机动态码登录</span>
+                    <div class="clear"></div>
+                </div>
+                <div class="accountlogin" style="display: none;">
+                    <div class="item">
+                        <input type="text" name="username" id="username" placeholder="账户名" maxlength="40" style="border: 2px solid rgb(235, 235, 235);">
+                        <div class="username_msg msg" style="display: block;"><span class="username_msgtext">您还没有输入账户名</span><div class="clear"></div></div>
+                    </div>
+                    <div class="item account_item_pic" style="display: none;">
+                        <input type="text" name="validcode" id="validcode" placeholder="图片验证码" maxlength="6">
+                        <img class="validcode_account" src="" alt="">
+                        <div class="validcode_msg msg"><span class="validcode_msgtext">验证码错误或过期，请重新输入</span><div class="clear"></div></div>
+                    </div>
+                    <div class="item">
+                        <div class="slidecode" id="slidecode"></div>
+                    </div>
+                    <div class="item">
+                        <input type="password" name="password" id="password" placeholder="密码" autocomplete="new-password" maxlength="16">
+                        <div class="password_msg msg"><span class="password_msgtext">该账户名与密码不符</span><div class="clear"></div></div>
+                    </div>
+                    <!--<div class="item">
+                        <p class="forgetpwd"><a class="" href="//passport.58.com/forgetpassword">忘记密码</a></p>
+                        <button id="btn_account" class="btn">登录</button>
+                        <div class="protocol">登录即同意<a target="_blank" href="//about.58.com/home2/home_pc/syxyjgg/771.html">《58同城使用协议》</a>&amp;<a target="_blank" href="//helpcenter.58.com/helpcenter_pc/yhfwxy/724.html">《隐私政策》</a></div>
+                    </div>
+                    <div class="item third">
+                        <a href="//passport.58.com/thd/thirdoauth/pc/qzone?path=https://km.58.com/pets.shtml?pts=1565869276798&amp;bill=oauthlogin&amp;source=58-default-pc" class="qq"><img src="//img.58cdn.com.cn/git/teg-app-fe/passport-pc/img/qq@2x.png" alt="">QQ登录</a>
+                        <a href="//passport.58.com/thd/thirdoauth/pc/weixin?path=https://km.58.com/pets.shtml?pts=1565869276798&amp;bill=oauthlogin&amp;source=58-default-pc" class="wechat"><img src="//img.58cdn.com.cn/git/teg-app-fe/passport-pc/img/weixin@2x.png" alt="">微信登录</a>
+                        <a href="//passport.58.com/thd/thirdoauth/pc/sina?path=https://km.58.com/pets.shtml?pts=1565869276798&amp;bill=oauthlogin&amp;source=58-default-pc" class="sina"><img src="//img.58cdn.com.cn/git/teg-app-fe/passport-pc/img/weibo@2x.png" alt="">微博登录</a>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="phonenumlogin" style="display: block;">
+                    <div class="item phonenumlogin_item_phone">
+                        <input type="text" name="phone" id="phone" placeholder="手机号" maxlength="11">
+                        <span class="getcode">获取动态码</span>
+                        <div class="phone_msg msg"><span class="phone_msgtext">您还未输入手机号</span><div class="clear"></div></div>
+                        <div class="getvoicecode_msg msg"><span class="getvoicecode_msgtext">收不到？<i class="getcode_voice">试试语音验证码</i></span><div class="clear"></div></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="item phonenum_item_pic">
+                        <input type="text" name="validcode_phone" id="validcode_phone" placeholder="图片验证码" maxlength="6">
+                        <img class="validcode" src="" alt="">
+                        <div class="validcode_phone_msg msg"><span class="validcode_phone_msgtext">验证码错误或过期，请重新输入</span><div class="clear"></div></div>
+                    </div>
+                    <div class="item">
+                        <div class="slidecode2" id="slidecode2"></div>
+                    </div>
+                    <div class="item">
+                        <input type="text" name="mobilecode" id="mobilecode" placeholder="动态码" maxlength="6">
+                        <div class="mobilecode_msg msg"><span class="mobilecode_msgtext">该账户名与密码不符</span><div class="clear"></div></div>
+                    </div>
+                    <div class="item">
+                        <button id="btn_phonenum" class="btn">登录</button>
+                        <div class="protocol">登录即同意<a target="_blank" href="//about.58.com/home2/home_pc/syxyjgg/771.html">《58同城使用协议》</a>&amp;<a target="_blank" href="//helpcenter.58.com/helpcenter_pc/yhfwxy/724.html">《隐私政策》</a></div>
+                    </div>
+                    <div class="item third">
+                        <a href="//passport.58.com/thd/thirdoauth/pc/qzone?path=https://km.58.com/pets.shtml?pts=1565869276798&amp;bill=oauthlogin&amp;source=58-default-pc" class="qq"><img src="//img.58cdn.com.cn/git/teg-app-fe/passport-pc/img/qq@2x.png" alt="">QQ登录</a>
+                        <a href="//passport.58.com/thd/thirdoauth/pc/weixin?path=https://km.58.com/pets.shtml?pts=1565869276798&amp;bill=oauthlogin&amp;source=58-default-pc" class="wechat"><img src="//img.58cdn.com.cn/git/teg-app-fe/passport-pc/img/weixin@2x.png" alt="">微信登录</a>
+                        <a href="//passport.58.com/thd/thirdoauth/pc/sina?path=https://km.58.com/pets.shtml?pts=1565869276798&amp;bill=oauthlogin&amp;source=58-default-pc" class="sina"><img src="//img.58cdn.com.cn/git/teg-app-fe/passport-pc/img/weibo@2x.png" alt="">微博登录</a>
+                        <div class="clear"></div>
+                    </div>
+                </div> -->
+            </div> 
+            </div>
         <ul class="nav1">
                 <li class="nav-item"><a>© 58.com</a></li>
                 <li class="nav-item"><a href="#">联系客服</a></li>
