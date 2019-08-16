@@ -14,7 +14,7 @@ body{
 }
 #d2{
     width:476px;
-    height: 500px;
+    height: 600px;
     background-color: #fff;
     
 }
@@ -37,4 +37,119 @@ ul>li.nav-item a{
     padding-top:20px;
     margin-bottom: 0;
     list-style: none;
+}
+div.sao{
+    position: absolute;
+    top: 90px;
+    right: 450px;
+}
+img.erweima{
+    width:50px;
+    height: 50px;
+}
+img.logo{
+    width: 100px;
+    height: 100px;
+    margin-top:50px ;
+    margin-left: 190px;
+}
+.change{
+        padding-top: 15px;
+        text-align: center;
+        width: 350px;
+        margin: 0 auto;
+        padding-bottom: 6px;
+    
+}
+.change span {
+    cursor: pointer;
+    float: left;
+    width: 175px;
+    color: #000;
+    font-size: 16px;
+    line-height: 66px;
+    border-bottom: 1px solid #ebebeb;
+}
+.change .active {
+    color: #ff552e;
+    border-bottom: 1px solid #ff552e;
+}
+.clear {
+    display: block;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.item {
+    width: 350px;
+    margin: 20px auto;
+    position: relative;
+}
+div {
+    display: block;
+}
+.item input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    outline: 0;
+    border: 2px solid #ebebeb;
+    text-indent: 15px;
+    font-size: 14px;
+    line-height: 42px;
+    *margin-left: -15px;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 0px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+.msg span:before {
+    content: '';
+    before: before;
+    width: 14px;
+    height: 14px;
+    width: 18px\9;
+    height: 18px\9;
+    background: url(//img.58cdn.com.cn/ui6/my/images/erroricon.png) no-repeat;
+    background-image: url(//static.58.com/git/teg-app-fe/passport-pc/img/copy@2x.png)\9;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: -1px;
+}
+.item a{
+    text-decoration: none;
+    color:#999;
+    position: relative;
+    float: right;
+}
+.bg{
+    background-color: #ff552e;
+    width: 100%;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    color: #fff !important;
+    outline: 0;
+    border: 0;
 }
