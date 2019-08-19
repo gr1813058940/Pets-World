@@ -5,16 +5,16 @@
 body{
     background-image: url(../img/reg/reg-bg.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 #d1{
     width:476px;
-    height: 600px;
+    height: 630px;
     margin: 40px 100px 200px 310px;
 }
 #d2{
     width:476px;
-    height: 600px;
+    height: 630px;
     background-color: #fff;
     
 }
@@ -42,6 +42,30 @@ div.sao{
     position: absolute;
     top: 90px;
     right: 450px;
+}
+div.sao1{
+    position: absolute;
+    top: 90px;
+    right: 450px;
+}
+div.sao a{
+    text-decoration: none;
+}
+div.sao1 a{
+    text-decoration: none;
+}
+div.saoma p{
+    text-align: center;
+    font-size: 20px;
+}
+div.saoma img{
+   margin-top:20px;
+   margin-left: 140px;
+
+}
+div.saoma p a{
+    text-decoration: none;
+    color:#ff552e;
 }
 img.erweima{
     width:50px;
@@ -123,6 +147,30 @@ input {
     border-color: initial;
     border-image: initial;
 }
+.account_item_pic, .phonenum_item_pic {
+    display: none;
+}
+.msg {
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+    top: 4px;
+    display:block;
+}
+.msg span {
+    width: 330px;
+    text-align: left;
+    color: #ff552e;
+    font-size: 12px;
+    font-size: 14px\9;
+    line-height: 12px;
+    line-height: 18px\9;
+    position: relative;
+    padding-left: 20px;
+    float: left;
+}
 .msg span:before {
     content: '';
     before: before;
@@ -130,8 +178,8 @@ input {
     height: 14px;
     width: 18px\9;
     height: 18px\9;
-    background: url(//img.58cdn.com.cn/ui6/my/images/erroricon.png) no-repeat;
-    background-image: url(//static.58.com/git/teg-app-fe/passport-pc/img/copy@2x.png)\9;
+    background: url(../img/login/w.png) no-repeat;
+    /* background-image: url(//static.58.com/git/teg-app-fe/passport-pc/img/copy@2x.png)\9; */
     background-size: cover;
     position: absolute;
     left: 0;
@@ -153,3 +201,48 @@ input {
     outline: 0;
     border: 0;
 }
+ .protocol {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 100px;
+    color: #999;
+}
+.protocol a{
+    text-decoration: none;
+    color: #ff552e;
+} 
+ul>li>a>img{
+    width: 30px;
+    height: 30px;
+}
+ul>li>a{
+    text-decoration: none !important;
+    font-size: 14px;
+    color: #999;
+}
+ul>li>a:hover{
+    
+    color: #999;
+
+}
+.getcode {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    height: 26px;
+    color: #999;
+    font-size: 12px;
+    line-height: 26px;
+    background: #eee;
+    border-radius: 2px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.phonenumlogin_item_phone {
+    text-align: justify;
+}
+.show{
+    display: none;
+}
+
+
